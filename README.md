@@ -1,6 +1,6 @@
-# APIA - API Automation Framework
+# APIA - API Builder and Runtime Engine
 
-APIA is a visual flow-based API automation framework that allows developers to build, configure, and manage APIs through a declarative JSON-based approach with a modern web-based GUI.
+APIA is a visual flow-based API framework that allows developers to build, configure, and manage APIs through a declarative JSON-based approach with a modern web-based GUI.
 
 ## Table of Contents
 
