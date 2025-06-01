@@ -117,8 +117,8 @@ apia/
     "method": "create",
     "table": "users",
     "inputMapping": {
-      "name": "request.body.name",
-      "email": "request.body.email"
+      "name": "payload.name",
+      "email": "payload.email"
     }
   }
 }
@@ -690,10 +690,3 @@ npm run test:connector mysql
 ## License
 
 MIT License - see LICENSE file for details.
-
-## Support
-
-- **Documentation**: [https://apia-docs.com](https://apia-docs.com)
-- **Issues**: [GitHub Issues](https://github.com/your-org/apia/issues)
-- **Community**: [Discord Server](https://discord.gg/apia)
-- **Email**: support@apia.dev 
