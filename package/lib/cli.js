@@ -18,7 +18,7 @@ const COMMANDS = {
 function showHelp() {
   console.log(`
 APIA - API Engine for enterprise software
-Copyright (c) 2025 Sanghaya Solutions
+Copyright (c) 2025 Von Uyvico
 
 Usage:
   apia <command> [options]
