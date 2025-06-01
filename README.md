@@ -1,3 +1,4 @@
+![Group 1](https://github.com/user-attachments/assets/11490ac3-195d-4b5f-82f1-a05daf0d9479)
 # APIA - API Builder and Runtime Engine
 
 APIA is a visual flow-based API framework that allows developers to build, configure, and manage APIs through a declarative JSON-based approach with a modern web-based GUI.
