@@ -1,0 +1,9 @@
+{
+    "flow-reference-name": "subflow-get-user",
+    "description": "Retrieve a user by ID from the database",
+    "subflows": [
+        {
+            "subflow-reference-name": "subflow-get-user-handler"
+        }
+    ]
+}

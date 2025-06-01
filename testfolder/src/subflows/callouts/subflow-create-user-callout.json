@@ -1,0 +1,14 @@
+{
+    "flow-reference-name": "subflow-create-user-callout",
+    "description": "Create a new user in MySQL database",
+    "type": "connector",
+    "connectorType": "mysql",
+    "config": {
+        "method": "create",
+        "table": "users",
+        "inputMapping": {
+            "name": "request.body.name",
+            "email": "request.body.email"
+        }
+    }
+}

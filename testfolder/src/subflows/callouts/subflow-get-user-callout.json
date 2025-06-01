@@ -1,0 +1,13 @@
+{
+    "flow-reference-name": "subflow-get-user-callout",
+    "description": "Callout to mysql for getting a user by ID",
+    "type": "connector",
+    "connectorType": "mysql",
+    "config": {
+        "method": "read",
+        "table": "users",
+        "where": {
+            "id": "payload.id"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "secret",
+    "database": "apia_db"
+  },
+  "mongodb": {
+    "uri": "mongodb://localhost:27017",
+    "database": "apia_mongo"
+  },
+  "postgresql": {
+    "host": "localhost",
+    "port": 5432,
+    "user": "postgres",
+    "password": "supersecret",
+    "database": "apia_pg"
+  },
+  "zoho": {
+    "clientId": "ZOHO_CLIENT_ID",
+    "clientSecret": "ZOHO_CLIENT_SECRET",
+    "refreshToken": "ZOHO_REFRESH_TOKEN",
+    "baseUrl": "https://www.zohoapis.com/crm/v2"
+  },
+  "salesforce": {
+    "username": "sf_user",
+    "password": "sf_password+security_token",
+    "clientId": "SF_CLIENT_ID",
+    "clientSecret": "SF_CLIENT_SECRET",
+    "loginUrl": "https://login.salesforce.com"
+  }
+} 

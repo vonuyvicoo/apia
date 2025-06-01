@@ -1,0 +1,40 @@
+{
+  "name": "apia",
+  "version": "1.0.0",
+  "description": "API Engine for enterprise software.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "node scripts/validateFlows.js",
+    "build": "npm run validate && node scripts/build.js",
+    "start": "node src/index.js",
+    "dev": "npm run build && npm start"
+  },
+  "bin": {
+    "apia": "index.js"
+  },
+  "author": "Sanghaya Solutions",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.3.0",
+    "http-proxy-middleware": "^2.0.6",
+    "jsforce": "^2.0.0-beta.29",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.3.0",
+    "mysql2": "^3.14.1",
+    "open": "^8.4.2",
+    "path": "^0.12.7",
+    "pg": "^8.11.3",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nock": "^13.4.0",
+    "supertest": "^6.3.3"
+  }
+}

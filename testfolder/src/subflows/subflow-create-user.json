@@ -1,0 +1,9 @@
+{
+    "flow-reference-name": "subflow-create-user",
+    "description": "Subflow for creating a new user",
+    "subflows": [
+        {
+            "subflow-reference-name": "subflow-create-user-handler"
+        }
+    ]
+}

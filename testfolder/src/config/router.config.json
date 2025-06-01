@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "path": "/users",
+      "method": "POST",
+      "flowReference": "subflow-create-user"
+    },
+    {
+      "path": "/users/:id",
+      "method": "GET",
+      "flowReference": "subflow-get-user"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+    "flow-reference-name": "subflow-get-user-handler",
+    "description": "Handler get a user by ID from the database",
+    "subflows": [
+        {
+            "subflow-reference-name": "http-request-processor",
+            "type": "connector",
+            "connectorType": "httpListener",
+            "config": {}
+        }, 
+        {
+            "subflow-reference-name": "transform-user-request",
+            "type": "connector",
+            "connectorType": "transform",
+            "config": {
+                "code": "console.log('Transform payload:', JSON.stringify(payload, null, 2)); payload.id = parseInt(payload.params.id); console.log('Set payload.id to:', payload.id); return payload;"
+            }
+        },
+        {
+            "subflow-reference-name": "subflow-get-user-callout"
+        }, 
+        {
+            "subflow-reference-name": "prepare-response-payload",
+            "type": "connector",
+            "connectorType": "transform",
+            "config": {
+                "code": "payload.response = { statusCode: 200, body: payload.dbResult }; return payload;"
+            }
+        }
+    ]
+}

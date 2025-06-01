@@ -1,0 +1,5 @@
+{
+  "flow-reference-name": "main-flow",
+  "description": "Main application flow that handles user management",
+  "router": "router.config.json"
+}
