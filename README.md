@@ -3,6 +3,8 @@
 
 APIA is a visual flow-based API framework that allows developers to build, configure, and manage APIs through a declarative JSON-based approach with a modern web-based GUI.
 
+<img width="1404" alt="Screenshot 2025-06-01 at 7 39 11 PM" src="https://github.com/user-attachments/assets/fac4ee11-6959-453f-9430-f549b7587353" />
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -17,6 +19,7 @@ APIA is a visual flow-based API framework that allows developers to build, confi
 - [Development Workflow](#development-workflow)
 - [Examples](#examples)
 - [Troubleshooting](#troubleshooting)
+
 
 ## Overview
 
